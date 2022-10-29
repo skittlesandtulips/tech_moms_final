@@ -11,18 +11,10 @@ body {
   .main-container {
     height: 400px;
     padding: 100px;
-    background-image: url(Images/colorful-tulip-flowers-arranged-corner-black-background.jpg);
-    background-size: 100% 100%;
+    background-image: url(Images/colorful_tulips.jpg);
+    background-size: 100%;  
     background-attachment: fixed;
     background-position: center;
-  }
-  
-  .footer-container {
-    grid-column: 1/3;
-    grid-row: 3;
-    padding: 10px;
-    /* border-top: 10px solid #020202; */
-    border-top: 60px solid rgb(221, 220, 220);
   }
   
   .logo-position {
@@ -63,22 +55,20 @@ body {
     padding-left: 30px;
     margin-top: 20px;
   }
-  .sidebar-btn {
-    margin-top: 15px;
-    width: 200px;
-    height: 60px;
-    font-size: 18px;
-    cursor: pointer;
-  }
+
   .btn-flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
-  .footer-flex {
-    display: flex;
-    direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+  .footer-container {
+    padding: 6px;
+    background-color: black;
+  }
+
+  .profil-pic-position {
+  display: flex;
+  justify-content: right;
   }
  
